@@ -1,2 +1,2 @@
-# Exerc-cios-de-Programa-o
+# Exercicios-de-Programacao
 Exercícios feitos em aula.
