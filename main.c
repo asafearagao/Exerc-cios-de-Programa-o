@@ -1,21 +1,20 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
+#include <math.h>
 
 int main()
 {
-    int dado1, dado2, dado3, dado4;
-    srand(time(NULL));
+    float x, y, z;
+    printf("Digite o valor Y: ");
+    scanf("%f",&y);
 
-    dado1 = 1 + rand() % (6 - 1 + 1);
-    dado2 = 1 + rand() % (6 - 1 + 1);
-    dado3 = 1 + rand() % (6 - 1 + 1);
-    dado4 = 1 + rand() % (6 - 1 + 1);
+    printf("Digite o valor Z: ");
+    scanf("%f",&z);
 
-    printf("Dado lancado. Valor: %d\n",dado1);
-    printf("Dado lancado. Valor: %d\n",dado2);
-    printf("Dado lancado. Valor: %d\n",dado3);
-    printf("Dado lancado. Valor: %d\n",dado4);
+    x = pow(y,2) + pow(z,3) + 1;
+
+
+    printf("O resultado e %.2f",x);
 
     return 0;
 }
